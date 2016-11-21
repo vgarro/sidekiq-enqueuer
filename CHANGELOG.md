@@ -1,5 +1,12 @@
 # Sidekiq Enqueuer Changes
 
+2.1.0.beta
+-----------
+- Drop support for Yaml-like params
+- Added support for required and optional parameters based on the method definition
+- Fixed issue with nil parameters being send to Jobs as `nil` strings
+
+
 2.0.0.beta
 -----------
 
